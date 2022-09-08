@@ -23,8 +23,9 @@ Following modifications to the original Sean's app have been made:
 
 - replacement of node-sass with sass to let developers build the app on Apple Silicon
 - a small workaround of the SASS issues in TerriaJS framework (see package.json#fix-terriajs-sass script and related SCSS file)
-- GeoJSON rock data placed at `wwwroot/tecrock-data`
-- Config JSON file has been updated to point to a new location
+- Copied Sean's GeoJSON rock data to `wwwroot/tecrock-data`
+- Config JSON file has been updated to point to a new data location
+- Removed `wwwroot/data` dir that seemed to be unused and was taking lots of space (files were too big to upload to Github)
 
 ## Development
 
