@@ -3,23 +3,30 @@
 
 name: CI
 
-on: [push, pull_request]
+on: push
 
 jobs:
-  build:
+  s3-deploy:
+    name: S3 Deploy
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [12.x, 14.x, 16.x]
-
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - run: rm -rf node_modules && yarn install --frozen-lockfile
-    - run: yarn gulp lint release
-      env:
-        NODE_OPTIONS: --max_old_space_size=4096
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+      - name: Install Dependencies
+        run: yarn install && yarn fix-terriajs-sass
+        env:
+          NODE_OPTIONS: --max_old_space_size=4096
+      - uses: concord-consortium/s3-deploy-action@v1
+        with:
+          build: yarn gulp release
+          folderToDeploy: wwwroot
+          bucket: models-resources
+          prefix: rock-map
+          awsAccessKeyId: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          awsSecretAccessKey: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          # Note: Parameters to GHActions have to be strings, so a regular yaml array cannot
+          # be used. Instead the `|` turns the following lines into a string
+          topBranches: |
+            ["main"]
