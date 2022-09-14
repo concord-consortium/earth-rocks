@@ -7,7 +7,7 @@
   },
   "viewerMode": "3dsmooth",
   "baseMaps": {
-    "defaultBaseMapId": "basemap-positron",
+    "defaultBaseMapId": "basemap-natural-earth-II",
     "previewBaseMapId": "basemap-positron"
   },
   "catalog": [

@@ -1,5 +1,4 @@
 {
-  /* Names of init files (in wwwroot/init), without the .json extension, to load by default */
   "initializationUrls": [
     "simple"
   ],
@@ -7,82 +6,30 @@
     "googleUrlShortenerKey": null,
     "googleAnalyticsKey": null,
     "googleAnalyticsOptions": null,
-    // Log ConsoleAnalytics events to console
-    // logToConsole: true,
-    //Turn UI elements on/off(not sure why these aren't working)
     "disableSplitter": true,
     "disableMyLocation": true,
     "disablePedestrianMode": true,
-    //Will probably want to change this
-    "supportEmail": "info@terria.io",
-    /* Text that appears at the bottom of the map */
-    /*    "disclaimer": {
-      "text": "Disclaimer: This map must not be used for navigation or precise spatial analysis",
-      "url": ""
-    },*/
-    /*
-        // Text that will be added to any pages printed from your site.
-        printDisclaimer:{
-            text:"Put your print disclaimer here.",
-            url: "#"
-        },
-        */
-    // Pop-up disclaimer that will be shown at the start
-    // The text of the disclaimer is in lib/Views/GlobalDisclaimer.html
-     globalDisclaimer: {
-         confirmationRequired: false,
-         buttonTitle: "Start Exploring",
-         title: "TecRock's World Geologic Map",
-      // If the current browser location is not prod, or is dev, then show a "not the real site" warning.
-      // The text of that is in lib/Views/DevelopmentDisclaimerPreamble.html
-      //prodHostRegex: "gov.\\.au$",
-      //devHostRegex: "\\b(staging|preview|test|dev)\\.",
-         enableOnLocalhost: true // If false, don't show this when running on localhost
+    "supportEmail": "help@concord.org",
+    "developerAttribution": {
+      "text": "Developed by Mapping Gnome",
+      "link": "https://mappinggnome.com/"
     },
-
-        developerAttribution: {
-            text: "Developed by Mapping Gnome",
-            link: "https://mappinggnome.com/"
-    },
-    // This is used in various text messages. You should also set <title> in index.html
     "appName": "TecRocks",
-    // See comments in lib/Views/global.scss for further information about customising colors, logos, fonts etc.
     "brandBarElements": [
       "",
       "<a target=\"_blank\" href=\"https://concord.org/our-work/research-projects/tecrocks\"><img src=\"images/CC_logo_full.jpg\" height=\"52\" title=\"Version: {{version}}\" /></a>",
       ""
     ],
-    // Shown when things go wrong.
-    //"supportEmail": "help@example.com",
-    // You probably shouldn't change this.
-    //"proj4ServiceBaseUrl": "proj4def/",
-    // Or this
-    //"feedbackUrl": "feedback",
-    // Default mobile viewer mode when loading the map for the first time on mobile platforms.
-    // Options are: "3DTerrain", "3DSmooth", "2D"
     "mobileDefaultViewerMode": "2d",
-    // Enable experimental features, since its nice to have the bleeding edge.
-    // Disable it if things go wrong with the experimental features or your users aren't robust to features which might change or disapear completly.
     "experimentalFeatures": false,
-    // To enable welcome message when map first loads
     "showWelcomeMessage": false,
-    // To override the welcome message video displayed on the welcome message
-    // By default, the Getting Started to Terria video is displayed
-    // "welcomeMessageVideo": {
-    //     "videoTitle": "Getting started with the map",
-    //     "videoUrl": "https://www.youtube-nocookie.com/embed/NTtSM70rIvI", // use an embedded video link
-    //     "placeholderImage": "https://img.youtube.com/vi/NTtSM70rIvI/maxresdefault.jpg"
-    // },
-    // True to display in-app guides.
-    // "showInAppGuides": false,
-    //Help content
     "helpContent": [
       {
         "title": "Getting started with the map",
         "itemName": "gettingstarted",
         "paneMode": "trainer",
         "markdownText": "# Getting started with the map\n\nHello welcome to the TecRocks World Map. This basic map provides you the opportunity to explore the Rocks of the Earth. Here are some quick tips to get started \n\n1. Click and drag around the Earth with the left mouse button. Use the mouse wheel to zoom in and out\n2. Disable map data layers by clicking the small box to the left of the layer title. This can help you orient yourself on the globe. \n3. Change the 'Display Variable' in the World Geology layer to view specific rock types. \n4. Open 'Map Settings' to switch between a flat earth view and a global view.",
-      },
+      }
     ]
   }
 }
