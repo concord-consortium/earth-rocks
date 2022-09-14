@@ -210,15 +210,15 @@
               },
               {
                 "value": "SS",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "LM",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "MT",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "IC",
@@ -226,11 +226,11 @@
               },
               {
                 "value": "OS",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "CS",
-                "color": "#ffffff"
+                "color": "#dedede"
               }
             ]
           },
@@ -252,27 +252,27 @@
               },
               {
                 "value": "SS",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "LM",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "MT",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "IC",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "OS",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "CS",
-                "color": "#ffffff"
+                "color": "#dedede"
               }
             ]
           },
@@ -287,23 +287,23 @@
             "enumColors": [
               {
                 "value": "BR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "AR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "GR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "SS",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "LM",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "MT",
@@ -315,11 +315,11 @@
               },
               {
                 "value": "OS",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "CS",
-                "color": "#ffffff"
+                "color": "#dedede"
               }
             ]
           },
@@ -329,23 +329,23 @@
             "enum": [
               {
                 "value": "BR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "AR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "GR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "SS",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "LM",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "MT",
@@ -357,11 +357,11 @@
               },
               {
                 "value": "OS",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "CS",
-                "color": "#ffffff"
+                "color": "#dedede"
               }
             ]
           },
@@ -376,15 +376,15 @@
             "enumColors": [
               {
                 "value": "BR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "AR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "GR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "SS",
@@ -396,7 +396,7 @@
               },
               {
                 "value": "MT",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "IC",
@@ -404,11 +404,11 @@
               },
               {
                 "value": "OS",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "CS",
-                "color": "#ffffff"
+                "color": "#dedede"
               }
             ]
           },
@@ -418,15 +418,15 @@
             "enum": [
               {
                 "value": "BR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "AR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "GR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "SS",
@@ -438,7 +438,7 @@
               },
               {
                 "value": "MT",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "IC",
@@ -446,11 +446,11 @@
               },
               {
                 "value": "OS",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "CS",
-                "color": "#ffffff"
+                "color": "#dedede"
               }
             ]
           },
@@ -465,27 +465,27 @@
             "enumColors": [
               {
                 "value": "BR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "AR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "GR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "SS",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "LM",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "MT",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "IC",
@@ -507,27 +507,27 @@
             "enum": [
               {
                 "value": "BR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "AR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "GR",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "SS",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "LM",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "MT",
-                "color": "#ffffff"
+                "color": "#dedede"
               },
               {
                 "value": "IC",
