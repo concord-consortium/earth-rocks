@@ -14,7 +14,7 @@
       "text": "Developed by Mapping Gnome",
       "link": "https://mappinggnome.com/"
     },
-    "appName": "TecRocks",
+    "appName": "TecRock's World Geologic Map",
     "brandBarElements": [
       "",
       "<a target=\"_blank\" href=\"https://concord.org/our-work/research-projects/tecrocks\"><img src=\"images/CC_logo_full.jpg\" height=\"52\" title=\"Version: {{version}}\" /></a>",
@@ -23,6 +23,12 @@
     "mobileDefaultViewerMode": "2d",
     "experimentalFeatures": false,
     "showWelcomeMessage": false,
+    "globalDisclaimer": {
+      "confirmationRequired": false,
+      "buttonTitle": "Start Exploring",
+      "title": "TecRock's World Geologic Map",
+      "enableOnLocalhost": true
+    },
     "helpContent": [
       {
         "title": "Getting started with the map",
