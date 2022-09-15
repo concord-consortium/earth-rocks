@@ -10,6 +10,17 @@
     "defaultBaseMapId": "basemap-natural-earth-II",
     "previewBaseMapId": "basemap-positron"
   },
+  "elements": {
+    "split-tool": {
+      "visible": false
+    },
+    "measure-tool": {
+      "visible": false
+    },
+    "pedestrian-mode": {
+      "visible": false
+    }
+  },
   "catalog": [
     {
       "id": "ne_admin",
