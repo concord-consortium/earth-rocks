@@ -3,12 +3,12 @@
     "simple"
   ],
   "parameters": {
+    "rockMapCustomizations": true,
     "googleUrlShortenerKey": null,
     "googleAnalyticsKey": null,
     "googleAnalyticsOptions": null,
-    "disableSplitter": true,
-    "disableMyLocation": true,
-    "disablePedestrianMode": true,
+    "useCesiumIonTerrain": false,
+    "cesiumTerrainUrl": null,
     "supportEmail": "help@concord.org",
     "developerAttribution": {
       "text": "Developed by Mapping Gnome",

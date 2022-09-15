@@ -5,7 +5,6 @@
     "south": 25,
     "west": -130
   },
-  "viewerMode": "3dsmooth",
   "baseMaps": {
     "defaultBaseMapId": "basemap-natural-earth-II",
     "previewBaseMapId": "basemap-positron"
