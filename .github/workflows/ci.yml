@@ -22,7 +22,6 @@ jobs:
         run: |
           gem install s3_website -v 3.4.0
           yarn install
-          yarn fix-terriajs-sass
       - name: Build
         run: yarn gulp release --baseHref="/rock-map/"
         env:

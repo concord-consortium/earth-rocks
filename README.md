@@ -21,8 +21,6 @@ It's been also copied to `wwwroot/tecrock-data`, so it can be deployed together 
 
 Following modifications to the original Sean's app have been made:
 
-- replacement of node-sass with sass to let developers build the app on Apple Silicon
-- a small workaround of the SASS issues in TerriaJS framework (see package.json#fix-terriajs-sass script and related SCSS file)
 - Copied Sean's GeoJSON rock data to `wwwroot/tecrock-data`
 - Config JSON file has been updated to point to a new data location
 - Removed `wwwroot/data` dir that seemed to be unused and was taking lots of space (files were too big to upload to Github)
@@ -32,8 +30,7 @@ Following modifications to the original Sean's app have been made:
 Most of the steps and requirements described here https://docs.terria.io/guide/getting-started/ are valid
 and apply to this application.
 
-However, because `node-sass` have been replaced with `sass` package, it's also necessary to run `yarn fix-terriajs-sass`
-between `yarn install` and `yarn gulp` steps.
+If you use Apple Silicon, make sure to use Node v14 (eg using `nvm`) as otherwise node-sass build process will fail.
 
 ```
 export NODE_OPTIONS=--max_old_space_size=4096
@@ -41,7 +38,6 @@ export NODE_OPTIONS=--max_old_space_size=4096
 npm install -g yarn
 
 yarn install
-yarn fix-terriajs-sass
 yarn gulp
 yarn start
 ```
