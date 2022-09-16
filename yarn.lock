@@ -11781,9 +11781,9 @@ terriajs-server@^3.3.4:
     when "^3.7.7"
     yargs "^13.2.4"
 
-terriajs@concord-consortium/terriajs:
-  version "8.2.14"
-  resolved "https://codeload.github.com/concord-consortium/terriajs/tar.gz/a9ca3b111ee35c5f65e2f6b64e186adef0b25c92"
+terriajs@concord-consortium/terriajs#main:
+  version "8.3.0"
+  resolved "https://codeload.github.com/concord-consortium/terriajs/tar.gz/a21991ac3f55f55d774b6fcfba8e9c7f5d3366af"
   dependencies:
     "@babel/core" "^7.16.0"
     "@babel/parser" "^7.12.14"
