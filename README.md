@@ -1,7 +1,7 @@
-Rock Map
+Earth Rocks
 ==========
 
-https://models-resources.concord.org/rock-map/
+https://models-resources.concord.org/earth-rocks/
 
 Initially, this app has been built by Sean for TecRock team and provided as a ZIP archive.
 See https://www.pivotaltracker.com/story/show/182702264 for more context.
@@ -69,8 +69,8 @@ TerriaJS-server can be deployed to AWS EC2 and there are already some script and
 However, it doesn't seem it's necessary for TecRocks.
 
 Currently, the whole content of `wwwroot` directory (after the successful build) has been copied to CC S3 bucket:
-`models-resources/rock-map`. So, the deployed app is available at:
+`models-resources/earth-rocks`. So, the deployed app is available at:
 
-https://models-resources.concord.org/rock-map/
+https://models-resources.concord.org/earth-rocks/
 
 There is no automated deployment process implemented yet.

@@ -6,7 +6,7 @@
 # Typically this is the Project name.
 # The trailing slash is important
 # Can be set to an empty string for working at the top level of the bucket
-S3_BUCKET_PREFIX='rock-map/'
+S3_BUCKET_PREFIX='earth-rocks/'
 # name of branch to deploy to root of site
 ROOT_BRANCH='main'
 # Bucket to deploy to, typically this is 'model-resources', but some projects

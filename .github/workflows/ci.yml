@@ -23,7 +23,7 @@ jobs:
           gem install s3_website -v 3.4.0
           yarn install
       - name: Build
-        run: yarn gulp release --baseHref="/rock-map/"
+        run: yarn gulp release --baseHref="/earth-rocks/"
         env:
           NODE_OPTIONS: --max_old_space_size=4096
       - name: Deploy
