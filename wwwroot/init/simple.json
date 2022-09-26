@@ -78,7 +78,7 @@
         {
           "id": "Plate Boundaries",
           "color": {
-            "nullColor": "rgb(0,191,166)"
+            "nullColor": "#0D0DFF"
           },
           "outline": {
             "null": {
