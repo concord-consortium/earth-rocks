@@ -23,7 +23,9 @@ jobs:
           gem install s3_website -v 3.4.0
           yarn install
       - name: Build
-        run: yarn gulp release --baseHref="/earth-rocks/"
+        # When branch releases are necessary, baseHref should be setup correctly, eg:
+        # run: yarn gulp release --baseHref="/branch/test-branch-abc/"
+        run: yarn gulp release
         env:
           NODE_OPTIONS: --max_old_space_size=4096
       - name: Deploy

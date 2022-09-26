@@ -1,7 +1,7 @@
 Earth Rocks
 ==========
 
-https://models-resources.concord.org/earth-rocks/
+https://earth-rocks.concord.org
 
 Initially, this app has been built by Sean for TecRock team and provided as a ZIP archive.
 See https://www.pivotaltracker.com/story/show/182702264 for more context.
@@ -71,6 +71,4 @@ However, it doesn't seem it's necessary for TecRocks.
 Currently, the whole content of `wwwroot` directory (after the successful build) has been copied to CC S3 bucket:
 `models-resources/earth-rocks`. So, the deployed app is available at:
 
-https://models-resources.concord.org/earth-rocks/
-
-There is no automated deployment process implemented yet.
+https://earth-rocks.concord.org
