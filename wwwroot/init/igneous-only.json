@@ -1,0 +1,234 @@
+{
+  "homeCamera": {
+    "north": 50,
+    "east": -60,
+    "south": 25,
+    "west": -130
+  },
+  "baseMaps": {
+    "defaultBaseMapId": "basemap-natural-earth-II",
+    "previewBaseMapId": "basemap-positron"
+  },
+  "elements": {
+    "split-tool": {
+      "visible": false
+    },
+    "measure-tool": {
+      "visible": false
+    },
+    "pedestrian-mode": {
+      "visible": false
+    }
+  },
+  "catalog": [
+    {
+      "id": "ne_admin",
+      "type": "geojson",
+      "url": "https://earth-rocks.concord.org/tecrocks-data/ne_admin_lake_pline.geojson",
+      "name": "Country Borders",
+      "description": "Country borders provided by Natural Earth. URL: https://www.naturalearthdata.com/",
+      "hideSource": true,
+      "disablePreview": false,
+      "disableZoomTo": false,
+      "disableOpacityControl": true,
+      "opacity": 0.8,
+      "hideLegendInWorkbench": true,
+      "disableExport": true,
+      "disableSplitter": true,
+      "disableAboutData": false,
+      "forceCesiumPrimitives": false,
+      "isOpenInWorkbench": false,
+      "show": true,
+      "styles": [
+        {
+          "id": "Country Borders",
+          "color": {
+            "nullColor": "rgb(71,72,73)"
+          },
+          "outline": {
+            "null": {
+              "width": 2.5
+            }
+          },
+          "hidden": true
+        }
+      ],
+      "activeStyle": "Country Borders",
+      "showDisableStyleOption": false
+    },
+    {
+      "id": "plate_boundaries",
+      "type": "geojson",
+      "url": "https://earth-rocks.concord.org/tecrocks-data/Plate_Boundaries.geojson",
+      "name": "Plate Boundaries",
+      "description": "This data shows a simplified version of our planet’s tectonic plate boundaries. The original dataset is provided by the USGS. URL: https://www.usgs.gov/media/files/plate-boundaries-kmz-file",
+      "hideSource": true,
+      "disablePreview": false,
+      "disableZoomTo": false,
+      "disableOpacityControl": true,
+      "opacity": 0.8,
+      "hideLegendInWorkbench": true,
+      "disableExport": true,
+      "disableSplitter": true,
+      "disableAboutData": false,
+      "forceCesiumPrimitives": false,
+      "isOpenInWorkbench": false,
+      "show": true,
+      "styles": [
+        {
+          "id": "Plate Boundaries",
+          "color": {
+            "nullColor": "#0D0DFF"
+          },
+          "outline": {
+            "null": {
+              "width": 4
+            }
+          },
+          "hidden": true
+        }
+      ],
+      "activeStyle": "Plate Boundaries",
+      "showDisableStyleOption": false
+    },
+    {
+      "id": "Durretal",
+      "type": "geojson",
+      "url": "https://earth-rocks.concord.org/tecrocks-data/WorldGeology_v2.geojson",
+      "name": "World Geology",
+      "description": "Decoding the patterns of rocks is a geologist’s job. This map shows the general pattern of the rocks on the Earth’s surface and includes igneous rocks (purples), metamorphic rocks (green), sedimentary rocks (yellows), and unconsolidated sediments (blue and brown). <p> Data for this layer comes from two sources. For undersea data, we interpreted data provided by Blue Habitats. For above water data, we used data provided by Canadian Geologists. Combining these data involved simplification of the source data to create this generalized world geologic map. <p> References: <p> Harris, P.T., Macmillan-Lawler, M., Rupp, J. and Baker, E.K. (2014). Seafloor Geomorphic Features Map. Geomorphology of the oceans. Marine Geology, 352: 4-24. URL:https://www.bluehabitats.org <p> Dürr, H. H., M. Meybeck, and S. H. Dürr (2005), Lithologic composition of the Earth’s continental surfaces derived from a new digital map emphasizing riverine material transfer, Global Biogeochem. Cycles, 19, GB4S10, doi:10.1029/2005GB002515. URL: http://www.geotypes.net/downloads.html ",
+      "hideSource": true,
+      "disablePreview": false,
+      "disableZoomTo": false,
+      "disableOpacityControl": true,
+      "opacity": 1,
+      "hideLegendInWorkbench": false,
+      "disableExport": true,
+      "disableSplitter": false,
+      "disableAboutData": false,
+      "forceCesiumPrimitives": false,
+      "show": true,
+      "showDisableStyleOption": false,
+      "styles": [
+        {
+          "id": "Igneous Rocks",
+          "color": {
+            "mapType": "enum",
+            "colorColumn": "Type",
+            "nullColor": "#E5B36D",
+            "enumColors": [
+              {
+                "value": "BR",
+                "color": "#554359"
+              },
+              {
+                "value": "AR",
+                "color": "#A271E2"
+              },
+              {
+                "value": "GR",
+                "color": "#E29FCF"
+              },
+              {
+                "value": "SS",
+                "color": "#dedede"
+              },
+              {
+                "value": "LM",
+                "color": "#dedede"
+              },
+              {
+                "value": "MT",
+                "color": "#dedede"
+              },
+              {
+                "value": "IC",
+                "color": "#FFFFFF"
+              },
+              {
+                "value": "OS",
+                "color": "#dedede"
+              },
+              {
+                "value": "CS",
+                "color": "#dedede"
+              }
+            ]
+          },
+          "outline": {
+            "mapType": "enum",
+            "column": "Type",
+            "enum": [
+              {
+                "value": "BR",
+                "color": "#554359"
+              },
+              {
+                "value": "AR",
+                "color": "#A271E2"
+              },
+              {
+                "value": "GR",
+                "color": "#E29FCF"
+              },
+              {
+                "value": "SS",
+                "color": "#dedede"
+              },
+              {
+                "value": "LM",
+                "color": "#dedede"
+              },
+              {
+                "value": "MT",
+                "color": "#dedede"
+              },
+              {
+                "value": "IC",
+                "color": "#dedede"
+              },
+              {
+                "value": "OS",
+                "color": "#dedede"
+              },
+              {
+                "value": "CS",
+                "color": "#dedede"
+              }
+            ]
+          },
+          "hidden": false
+        }
+      ],
+      "activeStyle": "Igneous Rocks",
+      "legendBackgroundColor": "#667080",
+      "legends": [
+        {
+          "items": [
+            {
+              "title": "Basaltic Rocks",
+              "color": "#554359"
+            },
+            {
+              "title": "Granite Rocks",
+              "color": "#E29FCF"
+            },
+            {
+              "title": "Andesite Rocks",
+              "color": "#A271E2"
+            },
+            {
+              "title": "Glacial Ice",
+              "color": "#FFFFFF"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "workbench": [
+    "ne_admin",
+    "plate_boundaries",
+    "Durretal"
+  ]
+}
