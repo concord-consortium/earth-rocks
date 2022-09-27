@@ -554,6 +554,184 @@
             ]
           },
           "hidden": false
+        },
+        {
+          "id": "Igneous Rocks & Sediments",
+          "color": {
+            "mapType": "enum",
+            "colorColumn": "Type",
+            "nullColor": "#E5B36D",
+            "enumColors": [
+              {
+                "value": "BR",
+                "color": "#554359"
+              },
+              {
+                "value": "AR",
+                "color": "#A271E2"
+              },
+              {
+                "value": "GR",
+                "color": "#E29FCF"
+              },
+              {
+                "value": "SS",
+                "color": "#dedede"
+              },
+              {
+                "value": "LM",
+                "color": "#dedede"
+              },
+              {
+                "value": "MT",
+                "color": "#dedede"
+              },
+              {
+                "value": "IC",
+                "color": "#FFFFFF"
+              },
+              {
+                "value": "OS",
+                "color": "#5E88B6"
+              },
+              {
+                "value": "CS",
+                "color": "#E5B36D"
+              }
+            ]
+          },
+          "outline": {
+            "mapType": "enum",
+            "column": "Type",
+            "enum": [
+              {
+                "value": "BR",
+                "color": "#554359"
+              },
+              {
+                "value": "AR",
+                "color": "#A271E2"
+              },
+              {
+                "value": "GR",
+                "color": "#E29FCF"
+              },
+              {
+                "value": "SS",
+                "color": "#dedede"
+              },
+              {
+                "value": "LM",
+                "color": "#dedede"
+              },
+              {
+                "value": "MT",
+                "color": "#dedede"
+              },
+              {
+                "value": "IC",
+                "color": "#dedede"
+              },
+              {
+                "value": "OS",
+                "color": "#5E88B6"
+              },
+              {
+                "value": "CS",
+                "color": "#E5B36D"
+              }
+            ]
+          },
+          "hidden": false
+        },
+        {
+          "id": "Igneous & Metamorphic Rocks",
+          "color": {
+            "mapType": "enum",
+            "colorColumn": "Type",
+            "nullColor": "#E5B36D",
+            "enumColors": [
+              {
+                "value": "BR",
+                "color": "#554359"
+              },
+              {
+                "value": "AR",
+                "color": "#A271E2"
+              },
+              {
+                "value": "GR",
+                "color": "#E29FCF"
+              },
+              {
+                "value": "SS",
+                "color": "#dedede"
+              },
+              {
+                "value": "LM",
+                "color": "#dedede"
+              },
+              {
+                "value": "MT",
+                "color": "#76AC74"
+              },
+              {
+                "value": "IC",
+                "color": "#FFFFFF"
+              },
+              {
+                "value": "OS",
+                "color": "#dedede"
+              },
+              {
+                "value": "CS",
+                "color": "#dedede"
+              }
+            ]
+          },
+          "outline": {
+            "mapType": "enum",
+            "column": "Type",
+            "enum": [
+              {
+                "value": "BR",
+                "color": "#554359"
+              },
+              {
+                "value": "AR",
+                "color": "#A271E2"
+              },
+              {
+                "value": "GR",
+                "color": "#E29FCF"
+              },
+              {
+                "value": "SS",
+                "color": "#dedede"
+              },
+              {
+                "value": "LM",
+                "color": "#dedede"
+              },
+              {
+                "value": "MT",
+                "color": "#76AC74"
+              },
+              {
+                "value": "IC",
+                "color": "#dedede"
+              },
+              {
+                "value": "OS",
+                "color": "#dedede"
+              },
+              {
+                "value": "CS",
+                "color": "#dedede"
+              }
+            ]
+          },
+          "hidden": false
         }
       ],
       "activeStyle": "World Geology",
