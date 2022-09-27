@@ -11783,7 +11783,7 @@ terriajs-server@^3.3.4:
 
 terriajs@concord-consortium/terriajs#main:
   version "8.3.0"
-  resolved "https://codeload.github.com/concord-consortium/terriajs/tar.gz/a21991ac3f55f55d774b6fcfba8e9c7f5d3366af"
+  resolved "https://codeload.github.com/concord-consortium/terriajs/tar.gz/ffd09eb28cf2d305abeb808c75d671742fc95602"
   dependencies:
     "@babel/core" "^7.16.0"
     "@babel/parser" "^7.12.14"
