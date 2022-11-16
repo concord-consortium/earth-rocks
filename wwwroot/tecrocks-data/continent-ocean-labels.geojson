@@ -1,0 +1,161 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Arctic Ocean"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143,
+          77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "North America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107,
+          56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pacific Ocean"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130,
+          -5
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "South America"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56,
+          -7
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Southern Ocean"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162,
+          -69
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Atlantic Ocean"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -39,
+          32
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Europe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11,
+          49
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Africa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24,
+          3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Indian Ocean"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76,
+          -12
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Australia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132,
+          -21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Asia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105,
+          57
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Antarctica"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12,
+          -73
+        ]
+      }
+    }
+  ]
+}

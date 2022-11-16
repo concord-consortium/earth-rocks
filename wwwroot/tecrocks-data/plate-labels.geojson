@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "African Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -4,
+                  15
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Pacific Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -154,
+                  11
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "North American Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -85,
+                  44
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Eurasian Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  54,
+                  55
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Nazca Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -94,
+                  -21
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "South American Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -43,
+                  -30
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Scotia Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -49,
+                  -57
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Caribbean Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  -73,
+                  15
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Antarctic Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  22,
+                  -62
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Somali Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  49,
+                  -8
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Arabian Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  48,
+                  21
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Indian Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  77,
+                  14
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Sunda Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  110,
+                  7
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Philippine Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  133,
+                  17
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Australian Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  120,
+                  -29
+              ]
+          }
+      },
+      {
+          "type": "Feature",
+          "properties": {
+              "name": "Amur Plate"
+          },
+          "geometry": {
+              "type": "Point",
+              "coordinates": [
+                  124,
+                  50
+              ]
+          }
+      }
+  ]
+}

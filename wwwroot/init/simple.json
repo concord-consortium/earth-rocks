@@ -22,9 +22,113 @@
   },
   "catalog": [
     {
+      "id": "continent-ocean-labels",
+      "type": "geojson",
+      "url": "tecrocks-data/continent-ocean-labels.geojson",
+      "name": "Continent and Ocean Names",
+      "description": "",
+      "hideSource": true,
+      "disablePreview": false,
+      "disableZoomTo": false,
+      "disableOpacityControl": true,
+      "opacity": 0.8,
+      "hideLegendInWorkbench": true,
+      "disableExport": true,
+      "disableSplitter": true,
+      "disableAboutData": false,
+      "forceCesiumPrimitives": false,
+      "isOpenInWorkbench": false,
+      "show": true,
+      "czmlTemplate": {
+        "label":{
+          "fillColor":{
+            "rgba":[
+              0,0,0,255
+            ]
+          },
+          "style": "FILL_AND_OUTLINE",
+          "font": "bold 20pt Arial",
+          "outlineColor":{
+            "rgba":[
+              255,255,255,255
+            ]
+          },
+          "outlineWidth": 4,
+          "scale": 1.0,
+          "show": true,
+          "text": {
+            "reference": "#properties.name"
+          },
+          "verticalOrigin": "CENTER",
+          "horizontalOrigin": "CENTER",
+          "heightReference": {
+            "heightReference": "RELATIVE_TO_GROUND"
+          },
+          "eyeOffset": {
+            "cartesian": [
+              0, 0, 0
+            ]
+          }
+        }
+      },
+      "showDisableStyleOption": false
+    },
+    {
+      "id": "plate-labels",
+      "type": "geojson",
+      "url": "tecrocks-data/plate-labels.geojson",
+      "name": "Plate Names",
+      "description": "",
+      "hideSource": true,
+      "disablePreview": false,
+      "disableZoomTo": false,
+      "disableOpacityControl": true,
+      "opacity": 0.8,
+      "hideLegendInWorkbench": true,
+      "disableExport": true,
+      "disableSplitter": true,
+      "disableAboutData": false,
+      "forceCesiumPrimitives": false,
+      "isOpenInWorkbench": false,
+      "show": true,
+      "czmlTemplate": {
+        "label":{
+          "fillColor":{
+            "rgba":[
+              0,0,0,255
+            ]
+          },
+          "style": "FILL_AND_OUTLINE",
+          "font": "bold 18pt Arial",
+          "outlineColor":{
+            "rgba":[
+              255,255,255,255
+            ]
+          },
+          "outlineWidth": 4,
+          "scale": 1.0,
+          "show": true,
+          "text": {
+            "reference": "#properties.name"
+          },
+          "verticalOrigin": "CENTER",
+          "horizontalOrigin": "CENTER",
+          "heightReference": {
+            "heightReference": "RELATIVE_TO_GROUND"
+          },
+          "eyeOffset": {
+            "cartesian": [
+              0, 0, 0
+            ]
+          }
+        }
+      },
+      "showDisableStyleOption": false
+    },
+    {
       "id": "ne_admin",
       "type": "geojson",
-      "url": "https://earth-rocks.concord.org/tecrocks-data/ne_admin_lake_pline.geojson",
+      "url": "tecrocks-data/ne_admin_lake_pline.geojson",
       "name": "Country Borders",
       "description": "Country borders provided by Natural Earth. URL: https://www.naturalearthdata.com/",
       "hideSource": true,
@@ -59,7 +163,7 @@
     {
       "id": "plate_boundaries",
       "type": "geojson",
-      "url": "https://earth-rocks.concord.org/tecrocks-data/Plate_Boundaries.geojson",
+      "url": "tecrocks-data/Plate_Boundaries.geojson",
       "name": "Plate Boundaries",
       "description": "This data shows a simplified version of our planet’s tectonic plate boundaries. The original dataset is provided by the USGS. URL: https://www.usgs.gov/media/files/plate-boundaries-kmz-file",
       "hideSource": true,
@@ -94,7 +198,7 @@
     {
       "id": "Durretal",
       "type": "geojson",
-      "url": "https://earth-rocks.concord.org/tecrocks-data/WorldGeology_v2.geojson",
+      "url": "tecrocks-data/WorldGeology_v2.geojson",
       "name": "World Geology",
       "description": "Decoding the patterns of rocks is a geologist’s job. This map shows the general pattern of the rocks on the Earth’s surface and includes igneous rocks (purples), metamorphic rocks (green), sedimentary rocks (yellows), and unconsolidated sediments (blue and brown). <p> Data for this layer comes from two sources. For undersea data, we interpreted data provided by Blue Habitats. For above water data, we used data provided by Canadian Geologists. Combining these data involved simplification of the source data to create this generalized world geologic map. <p> References: <p> Harris, P.T., Macmillan-Lawler, M., Rupp, J. and Baker, E.K. (2014). Seafloor Geomorphic Features Map. Geomorphology of the oceans. Marine Geology, 352: 4-24. URL:https://www.bluehabitats.org <p> Dürr, H. H., M. Meybeck, and S. H. Dürr (2005), Lithologic composition of the Earth’s continental surfaces derived from a new digital map emphasizing riverine material transfer, Global Biogeochem. Cycles, 19, GB4S10, doi:10.1029/2005GB002515. URL: http://www.geotypes.net/downloads.html ",
       "hideSource": true,
@@ -781,6 +885,8 @@
     }
   ],
   "workbench": [
+    "continent-ocean-labels",
+    "plate-labels",
     "ne_admin",
     "plate_boundaries",
     "Durretal"
