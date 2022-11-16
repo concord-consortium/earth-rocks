@@ -99,7 +99,7 @@
             ]
           },
           "style": "FILL_AND_OUTLINE",
-          "font": "bold 18pt Arial",
+          "font": "bold 14pt Arial",
           "outlineColor":{
             "rgba":[
               255,255,255,255

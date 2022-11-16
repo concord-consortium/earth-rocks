@@ -74,7 +74,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -39,
+          -50,
           32
         ]
       }
@@ -113,8 +113,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          76,
-          -12
+          71,
+          -20
         ]
       }
     },
@@ -126,7 +126,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          132,
+          128,
           -21
         ]
       }
