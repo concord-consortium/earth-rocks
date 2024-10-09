@@ -6,30 +6,26 @@ name: CI
 on: push
 
 jobs:
-  s3-deploy:
-    name: S3 Deploy
-    runs-on: ubuntu-18.04
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 16
-      - name: Setup Ruby
-        uses: actions/setup-ruby@v1
-        with:
-          ruby-version: '2.7'
       - name: Install Dependencies
-        run: |
-          gem install s3_website -v 3.4.0
-          yarn install
-      - name: Build
-        # When branch releases are necessary, baseHref should be setup correctly, eg:
-        # run: yarn gulp release --baseHref="/branch/test-branch-abc/"
-        run: yarn gulp release
-        env:
-          NODE_OPTIONS: --max_old_space_size=4096
-      - name: Deploy
-        run: ./s3_deploy.sh
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        run: yarn install
+      - uses: concord-consortium/s3-deploy-action@v1
+        id: s3-deploy
+        with:
+          bucket: models-resources
+          prefix: earth-rocks
+          folderToDeploy: wwwroot
+          build: yarn gulp release
+          awsAccessKeyId: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          awsSecretAccessKey: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          # Parameters to GHActions have to be strings, so a regular yaml array cannot
+          # be used. Instead the `|` turns the following lines into a string
+          topBranches: |
+            ["main"]
