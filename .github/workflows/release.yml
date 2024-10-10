@@ -1,0 +1,23 @@
+name: Release
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: The git tag for the version to recursively copy to the top level folder
+        required: true
+env:
+  BUCKET: models-resources
+  PREFIX: earth-rocks
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - run: >
+          aws s3 cp
+          s3://${{ env.BUCKET }}/${{ env.PREFIX }}/version/${{ github.event.inputs.version }}
+          s3://${{ env.BUCKET }}/${{ env.PREFIX }}/
+          --recursive
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: us-east-1
